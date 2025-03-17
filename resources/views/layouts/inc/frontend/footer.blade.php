@@ -30,13 +30,13 @@
                 <h3 class="heading">CONTACTEZ-NOUS</h3>
                 @if ($appSetting->address)
                     <p class="me-4">
-                        {{$appSetting->address}}
+                        Dakar,parcelle Assainie U06
                     </p>
                 @endif
                 @if ($appSetting->whatsapp)
                     <p class="me-4">
                         <i class="bx bxl-whatsapp"></i>
-                        {{$appSetting->whatsapp}}
+                        77 298 23 23
                     </p>
                 @endif
                 <ul class="contact-links footer-links">
@@ -52,7 +52,7 @@
                             <li>
                                 <a href="tel:{{$appSetting->phone1}}" title="Appelez-nous" class="contact-link">
                                     <i class="bx bx-phone-call"></i>
-                                    <span class="link-text">{{$appSetting->phone1}}</span>
+                                    <span class="link-text">+221 78 198 00 23</span>
                                 </a>
                             </li>
                         @endif
@@ -60,7 +60,7 @@
                             <li>
                                 <a href="tel:{{$appSetting->phone2}}" title="Appelez-nous" class="contact-link">
                                     <i class="bx bx-phone-call"></i>
-                                    <span class="link-text">{{$appSetting->phone2}}</span>
+                                    <span class="link-text">+221 77 298 23 23</span>
                                 </a>
                             </li>
                         @endif
@@ -68,7 +68,7 @@
                             <li>
                                 <a href="mailto:{{$appSetting->email1}}" title="Appelez-nous" class="contact-link">
                                     <i class="bx bx-envelope"></i>
-                                    <span class="link-text">{{$appSetting->email1}}</span>
+                                    <span class="link-text">AlloDoctor77@gmail.com</span>
                                 </a>
                             </li>
                         @endif
@@ -76,7 +76,7 @@
                             <li>
                                 <a href="mailto:{{$appSetting->email2}}" title="Appelez-nous" class="contact-link">
                                     <i class="bx bx-envelope"></i>
-                                    <span class="link-text">{{$appSetting->email2}}</span>
+                                    <span class="link-text">abdouazizdiop583@gmail.com</span>
                                 </a>
                             </li>
                         @endif

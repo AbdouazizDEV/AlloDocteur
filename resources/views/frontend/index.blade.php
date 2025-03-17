@@ -13,9 +13,9 @@
                     <div class="box1">
                         <h4><i class="bx bx-phone"></i> Appelez-Nous</h4>
                         @if ($appSetting->phone1)
-                            <p>{{$appSetting->phone1}}</p>
+                            <p>+221 77 298 23 23</p>
                         @else
-                            <p>+91 888 XXX XXXX</p>
+                            <p>+221 77 298 23 23</p>
                         @endif
                     </div>
                 </div>
@@ -23,9 +23,9 @@
                     <div class="box1">
                         <h4><i class="bx bx-plus-medical"></i> Soins d'Urgence</h4>
                         @if ($appSetting->phone2)
-                            <p>{{$appSetting->phone2}}</p>
+                            <p>+221 78 198 00 23</p>
                         @else
-                            <p>080 2222 XXXX</p>
+                            <p>+221 78 198 00 23</p>
                         @endif
                     </div>
                 </div>
@@ -33,9 +33,9 @@
                     <div class="box1">
                         <h4><i class="bx bx-envelope"></i> Contactez-nous par Email</h4>
                         @if ($appSetting->email1)
-                            <p>{{$appSetting->email1}}</p>
+                            <p>AlloDoctor77@gmail.com</p>
                         @else
-                            <p>vedprakash151994@gmail.com</p>
+                            <p>AlloDoctor77@gmail.com</p>
                         @endif
                     </div>
                 </div>

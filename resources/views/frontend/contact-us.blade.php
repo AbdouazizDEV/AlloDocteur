@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-md-5 text-md-end text-center">
                         @if ($appSetting->phone1)
-                            <a href="tel:{{$appSetting->phone1}}" class="btn3"><h5 class="mb-0 fs-4"> Appelez-Nous : {{$appSetting->phone1}}</h5></a>
+                            <a href="tel:{{$appSetting->phone1}}" class="btn3"><h5 class="mb-0 fs-4"> Appelez-Nous : +221 78 198 00 23</h5></a>
                         @endif
                     </div>
                 </div>
@@ -42,23 +42,23 @@
                     <hr>
 
                     @if ($appSetting->email1)
-                        <h5> <i class="bx bx-envelope"></i> Email : {{ $appSetting->email1 }}</h5>
+                        <h5> <i class="bx bx-envelope"></i> Email : AlloDoctor77@gmail.com</h5>
                         <hr>
                     @endif
                     @if ($appSetting->email2)
-                        <h5> <i class="bx bx-envelope"></i> Email : {{ $appSetting->email2 }}</h5>
+                        <h5> <i class="bx bx-envelope"></i> Email : abdouazizdiop583@gmail.com</h5>
                         <hr>
                     @endif
                     @if ($appSetting->phone1)
-                        <h5> <i class="bx bx-phone"></i> Téléphone : {{ $appSetting->phone1 }}</h5>
+                        <h5> <i class="bx bx-phone"></i> Téléphone : +221 78 198 00 23</h5>
                         <hr>
                     @endif
                     @if ($appSetting->phone2)
-                        <h5> <i class="bx bx-phone"></i> Téléphone 2 : {{ $appSetting->phone2 }}</h5>
+                        <h5> <i class="bx bx-phone"></i> Téléphone 2 : +221 77 298 23 23</h5>
                         <hr>
                     @endif
                     @if ($appSetting->whatsapp)
-                        <h5> <i class="bx bxl-whatsapp"></i> Whatsapp : {{ $appSetting->whatsapp }}</h5>
+                        <h5> <i class="bx bxl-whatsapp"></i> Whatsapp : 77 298 23 23</h5>
                         <hr>
                     @endif
                     @if ($appSetting->fax)
@@ -66,7 +66,7 @@
                         <hr>
                     @endif
                     @if ($appSetting->website_name)
-                        <h5> <i class="bx bx-globe"></i> Site Web : {{ $appSetting->website_link }}</h5>
+                        <h5> <i class="bx bx-globe"></i> Site Web : https://porfolio-2-psi.vercel.app/</h5>
                         <hr>
                     @endif
                 </div>

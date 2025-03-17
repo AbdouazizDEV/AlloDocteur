@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-md-7 text-center text-md-start">
                     @if ($appSetting->phone1)
-                        <a href="tel:{{ $appSetting->phone1 }}"> <i class="bx bx-phone"></i> Tel 1 : {{ $appSetting->phone1 }}</a> |
+                        <a href="tel:{{ $appSetting->phone1 }}"> <i class="bx bx-phone"></i> +221 78 198 00 23</a> |
                     @endif
                     @if ($appSetting->phone2)
-                        <a href="tel:{{ $appSetting->phone2 }}"> <i class="bx bx-phone"></i> Tel 2 : {{ $appSetting->phone2 }}</a> |
+                        <a href="tel:{{ $appSetting->phone2 }}"> <i class="bx bx-phone"></i> +221 77 298 23 23</a> |
                     @endif
                     @if ($appSetting->email1)
-                        <a href="mailto:{{$appSetting->email1}}" class="d-none d-md-inline-block"><i class="bx bx-envelope"></i> Email : {{$appSetting->email1}}</a>
+                        <a href="mailto:{{$appSetting->email1}}" class="d-none d-md-inline-block"><i class="bx bx-envelope"></i> Email : AlloDoctor77@gmail.com</a>
                     @endif
                 </div>
                 <div class="col-md-5 text-center text-md-end">

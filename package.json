@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build && vite build --ssr",
+        "vercel-build": "composer install && php artisan config:clear && php artisan view:clear && php artisan route:clear && php artisan optimize && npm ci && npm run build"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",

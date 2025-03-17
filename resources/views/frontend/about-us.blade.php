@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-md-5 text-md-end text-center">
                         @if ($appSetting->phone1)
-                            <a href="tel:{{$appSetting->phone1}}" class="btn3"><h5 class="mb-0 fs-4"> Appelez-nous : {{$appSetting->phone1}}</h5></a>
+                            <a href="tel:{{$appSetting->phone1}}" class="btn3"><h5 class="mb-0 fs-4"> Appelez-nous : +221 77 298 50 50</h5></a>
                         @endif
                     </div>
                 </div>
